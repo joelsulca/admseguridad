@@ -33,6 +33,27 @@ export class NavigationService {
       tooltip: 'Gestión de usuarios',
       icon: 'face',
       state: 'dashboard'
+    },
+    {
+      name: 'DELIVERY',
+      type: 'link',
+      tooltip: 'Delivery',
+      icon: 'local_shipping',
+      state: 'dashboard'
+    },
+    {
+      name: 'MOVIMIENTOS',
+      type: 'link',
+      tooltip: 'Movimientos',
+      icon: 'link',
+      state: 'dashboard'
+    },
+    {
+      name: 'REPORTES',
+      type: 'link',
+      tooltip: 'Reportes',
+      icon: 'book',
+      state: 'dashboard'
     }
   ]
 
